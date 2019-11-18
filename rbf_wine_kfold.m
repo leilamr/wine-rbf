@@ -86,8 +86,7 @@ for i=1:j
         trainMatrix = [k2;k3;k4;k5;k6;k7;k8;k9;k10];
         testMatrix = k1;
        end
-    
-       %% start MLP
+       
        %matrix for Train (160x13)
        inputTrain = trainMatrix(:,1:13);
        
